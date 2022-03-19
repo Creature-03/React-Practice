@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-//WHY HTML? HERE'S WHY
+//JSX
 
 // function Greeting(){
 //   return <h4>Hello World</h4>;
@@ -49,6 +49,39 @@ import ReactDOM from 'react-dom';
 
 
 
-// -----------------------
+// ******************************
 
-// changes 
+// Destructuring 
+
+// const Book = ({ cover, coverAlt, title, author }) => {
+//     return <article className='book'>
+//       <img src={cover} alt={coverAlt} className='w250px' />
+//       <h1>{title}</h1>
+//       <h4>{author}</h4>
+//     </article>
+//   }
+
+// ==
+
+// const Book = (props) => {
+//     const { cover. coverAlt, title, author } = props;
+//     return <article className='book'>
+//       <img src={cover} alt={coverAlt} className='w250px' />
+//       <h1>{title}</h1>
+//       <h4>{author}</h4>
+//     </article>
+//   }
+
+// ==
+
+// const Book = (props) => {
+//     return <article className='book'>
+//       <img src={props.cover} alt={props.coverAlt} className='w250px' />
+//       <h1>{props.title}</h1>
+//       <h4>{props.author}</h4>
+//     </article>
+//   }
+
+
+
+// ******************************
